@@ -16,7 +16,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://review-ai-backend-13xh.onrender.com",
+        "https://review-ai-backend-13xh.onrender.com/submit",
         { rating, review }
       );
 
