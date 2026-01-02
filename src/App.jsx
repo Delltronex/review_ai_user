@@ -16,7 +16,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://review-ai-backend-iota.vercel.app/submit",
+        "https://review-ai-backend-13xh.onrender.com",
         { rating, review }
       );
 
